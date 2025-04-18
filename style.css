@@ -1,0 +1,111 @@
+body {
+
+    background-color: black;
+}
+
+div {
+    display: grid;
+    place-items: center;
+}
+
+
+
+a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+}
+
+#homeButton {
+    padding-top: 35px;
+    text-decoration: none;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+#homeButton:hover {
+    color: rgb(0, 179, 255);
+}
+
+.homeButtons {
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+
+.homeButtons:hover {
+    color: rgb(246, 255, 119);
+}
+
+.linkButtons {
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+
+.linkButtons:hover {
+    color: rgb(47, 251, 28);
+}
+
+#bandcampLink:hover {
+    color: rgb(0, 179, 255)
+}
+
+#youtubeLink:hover {
+    color: rgb(224, 40, 7);
+}
+
+#appleLink:hover {
+    color: rgb(197, 88, 166);
+}
+
+.albumCovers {
+    width: 135px;
+    height: 135px;
+    padding-bottom: 5px;
+}
+
+.albumCovers:hover {
+    cursor: pointer;
+}
+
+#unstructDownload {
+    font-size: 25px;
+}
+
+#unstructDownload:hover {
+    color: rgb(101, 101, 101);
+}
+
+#sub-surfaceDownload {
+    font-size: 25px;
+}
+
+#sub-surfaceDownload:hover {
+    color: rgb(0, 38, 255);
+}
+
+#explanetaryDownload {
+    font-size: 25px;
+}
+
+#explanetaryDownload:hover {
+    color: rgb(33, 168, 13);
+}
+
+.divA {
+    color: black;
+}
+
+#error {
+    padding-top: 30px;
+}
